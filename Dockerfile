@@ -1,6 +1,6 @@
-FROM gcr.io/kaniko-project/executor:debug-v0.13.0 as kaniko
+FROM gcr.io/kaniko-project/executor:debug-v0.14.0 as kaniko
 
-FROM alpine:3.10.2
+FROM alpine:3.10.3
 
 RUN apk update && \
   apk upgrade && \
