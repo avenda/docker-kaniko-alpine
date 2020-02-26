@@ -1,4 +1,4 @@
-FROM gcr.io/kaniko-project/executor:debug-v0.15.0 as kaniko
+FROM gcr.io/kaniko-project/executor:debug-v0.16.0 as kaniko
 
 FROM alpine:3.10.4
 
