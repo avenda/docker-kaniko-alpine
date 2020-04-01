@@ -1,6 +1,6 @@
-FROM gcr.io/kaniko-project/executor:debug-v0.17.1 as kaniko
+FROM gcr.io/kaniko-project/executor:latest as kaniko
 
-FROM alpine:3.10.4
+FROM golang:1.14.1-alpine
 
 RUN apk update && \
   apk upgrade && \
